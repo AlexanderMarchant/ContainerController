@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         
         navigationController?.interactivePopGestureRecognizer?.delegate = self
         navigationController?.interactivePopGestureRecognizer?.isEnabled = true
-        
+        navigationController?.view.backgroundColor = .systemGroupedBackground
         items = [
             TitleTextItem(title: "Maps.app",                      clss: MapsViewController.self),
             TitleTextItem(title: "Example. Settings",             clss: ExamplesSettingsViewController.self),

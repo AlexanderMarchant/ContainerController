@@ -11,16 +11,16 @@
 import UIKit
 
 @available(iOS 13.0, *)
-public protocol ContainerControllerDelegate {
+@objc public protocol ContainerControllerDelegate {
     
     /// Reports rotation and orientation changes
-    func containerControllerRotation(_ containerController: ContainerController)
+    @objc optional func containerControllerRotation(_ containerController: ContainerController)
     
     /// Reports a click on the background shadow
-    func containerControllerShadowClick(_ containerController: ContainerController)
+    @objc optional func containerControllerShadowClick(_ containerController: ContainerController)
     
     /// Reports the changes current position of the container, after its use
-    func containerControllerMove(_ containerController: ContainerController, position: CGFloat, type: ContainerMoveType, animation: Bool)
+    @objc optional func containerControllerMove(_ containerController: ContainerController, position: CGFloat, type: ContainerMoveType, animation: Bool)
     
 }
 
@@ -39,4 +39,3 @@ public extension ContainerControllerDelegate {
 }
 
 #endif
-
