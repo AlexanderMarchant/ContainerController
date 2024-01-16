@@ -962,7 +962,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = Y7546NLJW9;
+						DevelopmentTeam = YKFJWH4C9S;
 						LastSwiftMigration = 0900;
 					};
 				};
@@ -1303,7 +1303,7 @@
 			baseConfigurationReference = 0AA8BF39B9F182FE833C0178 /* Pods-ContainerControllerSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y7546NLJW9;
+				DEVELOPMENT_TEAM = YKFJWH4C9S;
 				INFOPLIST_FILE = ContainerControllerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -1319,7 +1319,7 @@
 			baseConfigurationReference = 84550121AB9630F101ECE515 /* Pods-ContainerControllerSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y7546NLJW9;
+				DEVELOPMENT_TEAM = YKFJWH4C9S;
 				INFOPLIST_FILE = ContainerControllerSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;

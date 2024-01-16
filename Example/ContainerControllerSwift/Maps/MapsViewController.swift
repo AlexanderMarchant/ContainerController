@@ -127,7 +127,7 @@ class MapsViewController: StoryboardController, MapsContainerControllerDelegate,
         let paddingStatusBar: CGFloat = (ContainerDevice.statusBarHeight + padding)
         
         switch ContainerDevice.orientation {
-        case .portrait:
+        case .portrait, .portraitUpsideDown:
             paddingTop = paddingStatusBar
             paddingRight = padding
             paddingWeatherTop = padding
@@ -146,7 +146,7 @@ class MapsViewController: StoryboardController, MapsContainerControllerDelegate,
 
 
         switch ContainerDevice.orientation {
-        case .portrait:
+        case .portrait, .portraitUpsideDown:
             width = ContainerDevice.screenMin
             height = ContainerDevice.screenMax
         case .landscapeLeft,
